@@ -1,0 +1,30 @@
+$primary: #6c63ff;
+$secondary: #00e676;
+
+.bg-primary {
+  background: $primary !important;
+}
+
+.text-primary {
+  background: $primary !important;
+}
+
+.border-primary {
+  background: $primary !important;
+}
+
+.bg-secondary {
+  background: $secondary !important;
+}
+
+.text-secondary {
+  background: $secondary !important;
+}
+
+.border-secondary {
+  background: $secondary !important;
+}
+
+.bg-error {
+  background: tomato !important;
+}

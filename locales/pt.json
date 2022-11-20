@@ -1,3 +1,53 @@
 {
-  "hello_world": "Olá mundo!"
+  "home": {
+    "hi_my_name_is": "Ola, meu nome é",
+    "aka": "também conhecido como",
+    "im_a_fullstack_web_developer": "Eu sou um desenvolvedor web Fullstack",
+    "know_more_about_me": "Saiba mais sobre mim",
+    "change_language": "Mude o idioma"
+  },
+  "about": {
+    "about_me": "Sobre mim",
+    "text_1": "Olá, meu nome é Ícaro também conhecido como PatoGordo.",
+    "text_2": "Eu tenho {age} anos de idade e moro nada cidade de Montes Claros, MG, Brasil.",
+    "text_3": "Sou uma pessoa que gosta sempre de conhecer coisas novas, sou criativo, e proativo. Se há um problema busco sempre resolve-lo da forma mais simples possivel."
+  },
+  "projects": {
+    "projects": "Projetos",
+    "see_project": "Ver projeto",
+    "see_code": "Ver código",
+
+    "gbreath_content": "O GBreath é um aplicativo 100% gratuito para te guiar durante exercícios de respiração, o objetivo do projeto é ajudar as pessoas a controlar a ansiedade, dormir melhor e aprofundar no mindfulness.",
+    "no-horny_content": "O No Horny é um projeto de código aberto cujo objetivo é ajudar os usuários no No Fap além do autocontrole, tornando o usuário melhor com si mesmo.",
+    "rocket-launches_content": "Mantenha-se informado sobre os próximos lançamentos de foguetes usando o RocketLaunches, este aplicativo informa sobre os próximos lançamentos de foguetes e novidades no mundo da astronomia.",
+    "resistor-reader_content": "O ResistorReader é um App simples que tem como objetivo ajudar os usuários a lerem o código de cores dos resistores."
+  },
+  "skills": {
+    "technologies_skills": "Habilidades Técnicas",
+    "experient_with": "Experiente com",
+    "studing": "Estudando",
+    "interested_in": "Interesse em"
+  },
+  "contactme": {
+    "contact_me": "Me contate",
+    "your_f": "Sua",
+    "your_m": "Seu",
+    "name": "nome",
+    "email": "email",
+    "message": "mensagem",
+    "write_here_your_f": "Escreva aqui sua",
+    "write_here_your_m": "Escreva aqui seu",
+    "sending": "Enviando",
+    "message_sent": "Mensagem enviada",
+    "send_message": "Enviar mensagem",
+    "failed_to_send_your_message": "Falha ao enviar sua mensagem"
+  },
+  "footer": {
+    "overview": "Visão geral",
+    "home": "Ínicio",
+    "about_me": "Sobre mim",
+    "projects": "Projetos",
+    "technologies_skills": "Habilidades Técnicas",
+    "contact_me": "Me contate"
+  }
 }

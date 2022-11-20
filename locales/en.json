@@ -1,3 +1,53 @@
 {
-  "hello_world": "Hello world!"
+  "home": {
+    "hi_my_name_is": "Hi, my name is",
+    "aka": "a.k.a",
+    "im_a_fullstack_web_developer": "I’m a Fullstack Web Developer",
+    "know_more_about_me": "Know more about me",
+    "change_language": "Change the language"
+  },
+  "about": {
+    "about_me": "About me",
+    "text_1": "Hello there, my name Ícaro also know as PatoGordo.",
+    "text_2": "I’m {age} years old and I live in Montes Claros, MG, Brazil.",
+    "text_3": "I am a person who always love to discover things, I am creative and proactive. If there is a problem, I will try to solve it in the simplest way possible."
+  },
+  "projects": {
+    "projects": "Projects",
+    "see_project": "See Project",
+    "see_code": "See Code",
+
+    "gbreath_content": "The GBreath is a 100% free breathing guide app, the project goal is to help people control anxiety, sleep better and improve mindfulness.",
+    "no-horny_content": "The No Horny  is a open source project your the goal is help the users with no fap and self control, making the user better with it self.",
+    "rocket-launches_content": "Stay informed about the next rocket launch using the RocketLaunches this app inform you about the next rocket launches and news in the astronomy.",
+    "resistor-reader_content": "The ResistorReader is a simple App your purpose is help anyone who need help to read the resistor color code."
+  },
+  "skills": {
+    "technologies_skills": "Technologies Skills",
+    "experient_with": "Experient With",
+    "studing": "Studing",
+    "interested_in": "Interested in"
+  },
+  "contactme": {
+    "contact_me": "Contact Me",
+    "your_f": "Your",
+    "your_m": "Your",
+    "name": "name",
+    "email": "email",
+    "message": "message",
+    "write_here_your_f": "Write here your",
+    "write_here_your_m": "Write here your",
+    "sending": "Sending",
+    "message_sent": "Message sent",
+    "send_message": "Send message",
+    "failed_to_send_your_message": "Failed to send your message"
+  },
+  "footer": {
+    "overview": "Overview",
+    "home": "Home",
+    "about_me": "About me",
+    "projects": "Projects",
+    "technologies_skills": "Technologies Skills",
+    "contact_me": "Contact me"
+  }
 }

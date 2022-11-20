@@ -1,0 +1,44 @@
+@import "../variables.scss";
+
+.btn {
+  @apply py-2 px-4 rounded-md text-center flex flex-row items-center justify-center font-medium;
+  transition: all ease 0.3s;
+
+  & {
+    @apply bg-gray-300;
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+
+  &.btn-primary {
+    color: #fff;
+    background: $primary;
+  }
+
+  &.btn-outlined {
+    @apply bg-transparent text-black border border-black;
+
+    &:hover {
+      background: #000;
+      color: #fff;
+      filter: brightness(1);
+    }
+
+    &.btn-primary {
+      color: $primary !important;
+      border-color: $primary !important;
+
+      &:hover {
+        background: $primary;
+        color: #fff !important;
+      }
+    }
+  }
+
+  &:disabled {
+    filter: brightness(0.8);
+    cursor: not-allowed;
+    opacity: 0.8;
+  }
+}

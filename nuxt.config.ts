@@ -6,6 +6,7 @@ import VueI18nVitePlugin from "@intlify/unplugin-vue-i18n/vite";
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   vite: {
+    build: { assetsInlineLimit: 0 },
     css: {
       preprocessorOptions: {
         scss: {},
@@ -25,5 +26,13 @@ export default defineNuxtConfig({
         ],
       }),
     ],
+    server: {
+      proxy: {
+        "/api": {
+          target: "https://api-patogordo.netlify.app/api",
+          changeOrigin: true,
+        },
+      },
+    },
   },
 });

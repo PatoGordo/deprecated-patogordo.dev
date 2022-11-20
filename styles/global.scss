@@ -1,0 +1,39 @@
+@import "./variables.scss";
+@import "./components/button.scss";
+@import "./components/input.scss";
+
+* {
+  scroll-behavior: smooth;
+}
+
+.primary-highlight {
+  color: $primary !important;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+button,
+select,
+a,
+label {
+  cursor: pointer;
+}
+
+select {
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+
+.link {
+  color: #2196f3;
+  text-decoration: underline;
+}
