@@ -80,6 +80,7 @@ import moment from "moment";
 
     <svg
       style="width: 100%; position: absolute; bottom: -100.1%; z-index: 9999"
+      class="sm:block hidden"
       viewBox="0 0 1512 100"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
