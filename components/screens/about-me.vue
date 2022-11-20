@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+import moment from "moment";
+</script>
+
 <template>
   <div
     id="about-me"
@@ -61,7 +65,11 @@
             {{ $t("about.text_1") }}
           </p>
           <p>
-            {{ $t("about.text_2") }}
+            {{
+              $t("about.text_2", {
+                age: moment().diff("2005-03-22", "years", false),
+              })
+            }}
           </p>
           <p>
             {{ $t("about.text_3") }}
