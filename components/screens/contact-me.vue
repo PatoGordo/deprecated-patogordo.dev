@@ -108,7 +108,7 @@ const handleSendMessage = async () => {
           </div>
           <div class="form-control">
             <label for="contact-me-message"
-              >{{ $t("contactme.your_f") }} {{ $t("contactme.name") }}</label
+              >{{ $t("contactme.your_f") }} {{ $t("contactme.message") }}</label
             >
             <textarea
               v-model="message"
